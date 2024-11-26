@@ -19,7 +19,7 @@
     **** xref:04-implementation/guides/essential-components-guide.adoc[Essential Components]
     **** xref:04-implementation/guides/key-management-modes-guide.adoc[Key Management Modes]
   *** Environment Setup
-    **** xref:04-implementation/guides/getting-started-guide.adoc[Getting Started Guide]
+    **** xref:04-implementation/guides/getting-started-guide.adoc[Getting Started]
 // *** Advanced
 //   **** xref:04-implementation/guides/advanced/setup-hedera-development-node-guide.adoc[Setup Hedera Development Node]
 
@@ -34,7 +34,7 @@
     *** Advanced
       **** xref:04-implementation/components/core-guide.adoc[Core]
       **** xref:04-implementation/components/messages-guide.adoc[Messages]
-      **** xref:04-implementation/components/lifecycle-guide.adoc[LifeCycle]
+      **** xref:04-implementation/components/lifecycle-guide.adoc[Lifecycle]
 
   ** Components API
     *** xref:04-implementation/components/resolveDID-api.adoc[resolveDID]
@@ -48,15 +48,15 @@
     *** Advanced
       **** xref:04-implementation/components/core-api.adoc[Core]
       **** xref:04-implementation/components/messages-api.adoc[Messages]
-      **** xref:04-implementation/components/lifecycle-api.adoc[LifeCycle]
+      **** xref:04-implementation/components/lifecycle-api.adoc[Lifecycle]
 
 * Testing 
   ** xref:05-testing/acceptance-tests/index.adoc[Acceptance Tests]
 
 
 * Deployment
-  ** xref:06-deployment/packages/index.adoc[npm Packages]
+  ** xref:06-deployment/packages/index.adoc[Packages Guide]
 
 
 * Maintenance
-  ** xref:07-maintenance/support/guide.adoc[Support]
+  ** xref:07-maintenance/support/getting-support-guide.adoc[Getting Support]
