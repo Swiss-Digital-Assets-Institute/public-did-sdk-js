@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-= LifeCycle
-
-include::../../shared/under-development.adoc[]
-=======
 = Lifecycle
 
 The Lifecycle component is the foundation of the Hashgraph DID SDK. TIt provides a powerful and flexible system for orchestrating complex asynchronous operations related to Decentralized Identifiers (DIDs).
@@ -63,4 +58,3 @@ The `LifecycleRunner` class is responsible for executing the lifecycle. The `pro
 == References
 
 * xref:04-implementation/components/lifecycle-api.adoc[lifecycle API Reference]
->>>>>>> HISSDK-388-write-guides-for-advanced-components

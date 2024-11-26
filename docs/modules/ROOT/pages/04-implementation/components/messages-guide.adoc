@@ -1,8 +1,5 @@
 = Messages
 
-<<<<<<< HEAD
-include::../../shared/under-development.adoc[]
-=======
 The Messages component is the foundation of the Hashgraph DID SDK. It provides a comprehensive set of classes for constructing and handling DID Messages, which facilitate various DID operations on the Hedera network.
 
 == Overview
@@ -89,4 +86,3 @@ const message = new DIDDeactivateMessage({
 == References
 
 * xref:04-implementation/components/messages-api.adoc[messages API Reference]
->>>>>>> HISSDK-388-write-guides-for-advanced-components
