@@ -15,7 +15,7 @@ async function main() {
   try {
     const deactivatedDidDocument = await deactivateDID(
       {
-        did: 'did:hedera:testnet:RTHEmJFVw6fPPkUuFhL5f8j8ShFrVvtUcZuVq3k2pWR_0.0.5217512',
+        did: 'did:hedera:testnet:4eVmx7hCbf1mB1okzKUHWzcgWPnDf1yhuY7xLpWM3mDD_0.0.7319830',
         privateKey,
       },
       {

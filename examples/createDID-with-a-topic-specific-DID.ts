@@ -16,7 +16,7 @@ client.setOperator(accountId, operatorPrivateKey);
 async function main() {
   try {
     const { did, didDocument } = await createDID({
-      topicId: "0.0.5217514",
+      topicId: "0.0.7319960",
     },{
       client
     });
