@@ -5,7 +5,7 @@
  */
 import { resolveDID } from "@swiss-digital-assets-institute/resolver";
 
-const did = "did:hedera:testnet:23g2MabDNq3KyB7oeH9yYZsJTRVeQ24DqX8o6scB98e3_0.0.5217215";
+const did = process.env.HEDERA_TESTNET_DID; // Set this to the DID you just created
 
 async function main() {
   try {
