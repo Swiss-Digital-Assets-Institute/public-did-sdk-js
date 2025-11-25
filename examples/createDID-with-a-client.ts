@@ -17,7 +17,7 @@ async function main() {
     // Create a DID using the same private key as the operator.
     // This ensures future update operations signed with this key will succeed.
     const { did, didDocument } = await createDID(
-      { privateKey: PrivateKey.fromStringED25519(operatorPrivateKey) },
+      { privateKey: PrivateKey.fromStringDer(operatorPrivateKey) },
       { client },
     );
 

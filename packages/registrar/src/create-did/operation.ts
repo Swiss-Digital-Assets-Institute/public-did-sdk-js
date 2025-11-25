@@ -53,7 +53,8 @@ export async function createDID(
   );
 
   const publicKeyString = await signer.publicKey();
-  const publicKeyObject = PublicKey.fromStringED25519(publicKeyString);
+  // publicKeyString is DER-encoded hex; PublicKey.fromString accepts hex with optional DER header
+  const publicKeyObject = PublicKey.fromString(publicKeyString);
 
   const didOwnerMessage = new DIDOwnerMessage({
     publicKey: publicKeyObject,
